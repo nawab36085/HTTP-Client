@@ -1,0 +1,27 @@
+This is a HTTP Client implementation in C. Currently it supports only GET and POST methods.
+
+Following files are part of this implementation:
+
+http_client.c
+http_client.h
+http_error.h
+http_client_test.c
+Makefile
+
+http_client.c implements the HTTP methods. It currently supports only GET and POST methods.
+http_client.h exposes the functions which can be used for having these methods.
+http_error.h lists different error codes which the client implementation can throw to help in debugging.
+http_client_test.c shows example of how the GET and POST methods can be used.
+Makefile provides the script for building the whole mdoule
+To build the module, use "make" command. To clean it use "make clean" command.
+ 
+Building the module creates a executable called httpclienttest which allows the test of GET and POST methods as follows:
+To test GET method, please use the command:
+./httpclienttest get
+To test POST methods please use the command:
+./httpclienttest post
+
+The test uses predefined server information and other parameters which can be found in the http_client_test.c file.
+
+
+

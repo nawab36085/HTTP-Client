@@ -1,11 +1,4 @@
-/* 
-	Copyright (C) 2016-2017  Nawab
-	HTTP Client header.
-	This file defines several structures and  function prototypes to be used for the HTTP Client implementation.
-	The methods and structures required to use HTTP Client module have been exposed in this file.
-	Users should include this file to use the feature of HTTP Client implementation.
-	Its a free software and can be used and redistributed without any restriction.
-*/
+
 /**********************************************DEFINES**********************************************************/
 //To signifies if the operation succeeded.
 #define SUCCESS 0
